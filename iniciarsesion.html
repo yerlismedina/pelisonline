@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>inisiarsesion</title>
+<style type="text/css">
+
+
+
+
+
+td img {display: block;}td img {display: block;}
+.style1 {
+	color: #FFFFFF;
+	font-style: italic;
+	font-weight: bold;
+}
+td img {display: block;}td img {display: block;}td img {display: block;}td img {display: block;}
+.style5 {color: #FFFFFF}
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#000099" onload="MM_preloadImages('imagenes/cabecera_r2_c2_f3.gif','imagenes/cabecera_r2_c2_f2.gif','imagenes/cabecera_r2_c4_f3.gif','imagenes/cabecera_r2_c4_f2.gif','imagenes/cabecera_r2_c8_f3.gif','imagenes/cabecera_r2_c8_f2.gif','imagenes/cabecera_r3_c6_f3.gif','imagenes/cabecera_r3_c6_f2.gif')" > 
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><center>
+  <!-- fwtable fwsrc="Sin título" fwbase="cabecera.gif" fwstyle="Dreamweaver" fwdocid = "1528318306" fwnested="0" -->
+  <tr>
+    <td><img src="imagenes/spacer.gif" width="31" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="81" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="101" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="140" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="157" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="158" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="108" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="203" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="21" height="1" border="0" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+  <tr>
+    <td colspan="9"><div align="center"><img src="CAB2.png" width="999" height="266" /></div></td>
+    <td><img src="imagenes/spacer.gif" width="1" height="162" border="0" alt="" /></td>
+  </tr>
+  <tr>
+    <td rowspan="4"><img name="cabecera_r2_c1" src="imagenes/cabecera_r2_c1.gif" width="31" height="38" border="0" id="cabecera_r2_c1" alt="" /></td>
+    <td rowspan="2"><a href="index.html"><img name="cabecera_r2_c2" src="imagenes/cabecera_r2_c2.gif" width="81" height="25" border="0" id="cabecera_r2_c2" alt="" /></a></td>
+    <td rowspan="4"><img name="cabecera_r2_c3" src="imagenes/cabecera_r2_c3.gif" width="101" height="38" border="0" id="cabecera_r2_c3" alt="" /></td>
+    <td rowspan="2"><a href="ESTRENOS.HTML" target="_top" onclick="MM_nbGroup('down','navbar1','cabecera_r2_c4','imagenes/cabecera_r2_c4_f3.gif',1)" onmouseover="MM_nbGroup('over','cabecera_r2_c4','imagenes/cabecera_r2_c4_f2.gif','imagenes/cabecera_r2_c4_f3.gif',1)" onmouseout="MM_nbGroup('out');"><img name="cabecera_r2_c4" src="imagenes/cabecera_r2_c4.gif" width="140" height="25" border="0" id="cabecera_r2_c4" alt="" /></a></td>
+    <td colspan="3"><img name="cabecera_r2_c5" src="imagenes/cabecera_r2_c5.gif" width="423" height="1" border="0" id="cabecera_r2_c5" alt="" /></td>
+    <td rowspan="2"><a href="iniciarsesion.html" target="_top" onclick="MM_nbGroup('down','navbar1','cabecera_r2_c8','imagenes/cabecera_r2_c8_f3.gif',1)" onmouseover="MM_nbGroup('over','cabecera_r2_c8','imagenes/cabecera_r2_c8_f2.gif','imagenes/cabecera_r2_c8_f3.gif',1)" onmouseout="MM_nbGroup('out');"><img name="cabecera_r2_c8" src="imagenes/cabecera_r2_c8.gif" width="203" height="25" border="0" id="cabecera_r2_c8" alt="" /></a></td>
+    <td rowspan="4"><img name="cabecera_r2_c9" src="imagenes/cabecera_r2_c9.gif" width="21" height="38" border="0" id="cabecera_r2_c9" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><img name="cabecera_r3_c5" src="imagenes/cabecera_r3_c5.gif" width="157" height="37" border="0" id="cabecera_r3_c5" alt="" /></td>
+    <td rowspan="2"><a href="categoria.html" target="_top" onclick="MM_nbGroup('down','navbar1','cabecera_r3_c6','imagenes/cabecera_r3_c6_f3.gif',1)" onmouseover="MM_nbGroup('over','cabecera_r3_c6','imagenes/cabecera_r3_c6_f2.gif','imagenes/cabecera_r3_c6_f3.gif',1)" onmouseout="MM_nbGroup('out');"><img name="cabecera_r3_c6" src="imagenes/cabecera_r3_c6.gif" width="158" height="25" border="0" id="cabecera_r3_c6" alt="" /></a></td>
+    <td rowspan="3"><img name="cabecera_r3_c7" src="imagenes/cabecera_r3_c7.gif" width="108" height="37" border="0" id="cabecera_r3_c7" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="1" height="24" border="0" alt="" /></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><img name="cabecera_r4_c2" src="imagenes/cabecera_r4_c2.gif" width="81" height="13" border="0" id="cabecera_r4_c2" alt="" /></td>
+    <td rowspan="2"><img name="cabecera_r4_c4" src="imagenes/cabecera_r4_c4.gif" width="140" height="13" border="0" id="cabecera_r4_c4" alt="" /></td>
+    <td rowspan="2"><img name="cabecera_r4_c8" src="imagenes/cabecera_r4_c8.gif" width="203" height="13" border="0" id="cabecera_r4_c8" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+  <tr>
+    <td><img name="cabecera_r5_c6" src="imagenes/cabecera_r5_c6.gif" width="158" height="12" border="0" id="cabecera_r5_c6" alt="" /></td>
+    <td><img src="imagenes/spacer.gif" width="1" height="12" border="0" alt="" /></td>
+  </tr>
+</table>
+
+
+<center><h1 class="style1">PELIS.ONLINE</h1>
+  <p class="style1"><img src="n.png" width="500" height="50" /></p>
+  <p class="style1"><img src="A.png" width="500" height="50" /></p>
+  <p class="style1"><img src="c.png" width="500" height="50" /></p>
+  <p class="style1"><img src="ct.png" width="500" height="50" /></p>
+  <p class="style1">INICIAR SESION </p>
+</center>
+</h3>
+<center>
+  <a href="https://m.facebook.com/pelis.velasquez?ref=booksmarks"><img src="f3.jpg" width="50" height="50" hspace="20" vspace="20" border="0"/></a><img src="w1.jpg" width="50" height="50" border="0" hspace="20" vspace="20"/><a href="https://instagram.com/pelis.online5"><img src="i.1.jpg" width="50" height="50" hspace="20" vspace="20" border="0"/></a><a href="https://mobile.twitter.com/pelculas16/with_replies"><img src="t1.jpg" width="50" height="50" hspace="20" vspace="20" border="0"/></a>
+  <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&amp;pli=1&amp;zx=n9dyiefirt93"><img src="g1.jpg" width="50" height="50" hspace="20" vspace="20" border="0"/></a>
+</center>
+<p><center>
+<a href="index.html"><font color="#ffffff">Inicio</font></a> -
+
+<a href="ESTRENOS.HTML"><font color="#ffffff">Estrenos</font></a> -
+<a href="categoria.html"><font color="#ffffff">Categoria</font></a> -
+<a href="iniciarsesion.html"><font color="#ffffff">Iniciar sesion</font></a> 
+</center></p>
+<br><center>
+  <font color="#ffffff" face="arial negrita"> Mandanos un mensaje via e-mail a <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&amp;pli=1&amp;zx=n9dyiefirt93">pelisonline04@gmail.com </a></font>
+</center>
+</p>
+
+
+</td>
+</body>
+</html>
